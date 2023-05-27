@@ -13,3 +13,6 @@ When using PySpark, the framework will automatically parallelize our computation
 # Result
 
 
+# Conclusion
+
+In this study, we applied Pyspark and Dask to conduct large-scale computing on Amazon's product review data. By adding NLP features such as sentiment scores and subjectivity into our machine learning model, we successfully boosted our model's performance and obtained nearly 90% accuracy in prediction by using a multiclass logistic classifier for French reviews and random forests for English reviews. Our models could benefit companies such as Amazon in identifying fake or misleading comments, automating the comment review process, and categorizing reviews which have no associated star ratings.
