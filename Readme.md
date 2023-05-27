@@ -24,6 +24,18 @@ In this part, we employed several key strategies to predict Amazon product revie
 
 # Result
 
+| LANGUAGE |     Model     |                   Feature                  | ACCURACY |
+|----------|---------------|--------------------------------------------|----------|
+| **ENGLISH**  | naive bayes   | sentiment polarity and subjectivity        |   0.62   |
+|          | logistic      | sentiment polarity                         |   0.95   |
+|          | Random        | sentiment polarity and subjectivity        |   0.86   |
+| **FRENCH**   | logistic      | Vectorize                                  |   0.59   |
+|          |               | Vectorize without stop_word                 |   0.83   |
+|          |               | sentiment polarity and subjectivity        |   0.89   |
+| **CHINESE**  | Logistic      | sentiment, sentimental words count         |   0.491  |
+|          | Random forest | sentiment, sentimental words count         |   0.56   |
+|          | Naive Bayes   | sentiment, sentimental words count         |   0.5    |
+
 
 # Conclusion
 
