@@ -1,3 +1,4 @@
+# Predicting Amazon Reviews Stars
 # Introduction
 
 In this project, we leveraged different machine learning models to predict the review stars of Amazon products from customers' reviews and the category of the product. The data is collected from the Multilingual Amazon Reviews Corpus (https://registry.opendata.aws/amazon-reviews-ml/) which is freely accessible from the AWS Open Data Registry. We conducted our analysis on English reviews, French reviews and Chinese reviews, and successfully obtained a prediction accuracy of almost 90% on French and English review stars by using a multiclass logistic classifier. 
